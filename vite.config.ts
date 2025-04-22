@@ -19,6 +19,7 @@ export default defineConfig(({ command }) => ({
   build: {
     sourcemap: true,
   },
+  base: '/as-web-xwtx/',
   plugins: [
     VitePWA({
       registerType: 'prompt',
