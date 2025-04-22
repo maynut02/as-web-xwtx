@@ -13,7 +13,7 @@ export const useSetting = defineStore('setting', () => {
       unityCNKeyEnabled: false,
       unityCNKey: '',
       unityEnv: BundleEnv.NONE,
-      unityEnvIndex: 0,
+      unityEnvIndex: 2,
     },
     {
       mergeDefaults: (storageValue, defaults) => ({
