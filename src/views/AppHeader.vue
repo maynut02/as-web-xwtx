@@ -18,6 +18,7 @@ import IconGithub from '@/assets/github.svg';
 import MenuBar from '@/components/MenuBar.vue';
 import type { MenuBarConfig } from '@/components/MenuBar.vue';
 import type { MenuDropdownConfigItem } from '@/components/MenuDropdown.vue';
+import { BundleEnvIndex } from '@/constants/bundle-env';
 import { useAssetManager } from '@/store/assetManager';
 import { useSetting } from '@/store/setting';
 import ExportOptionsDialog from './components/ExportOptionsDialog.vue';
@@ -111,7 +112,7 @@ const menuConfig = markRaw<MenuBarConfig>([
     items: [
       getEnvMenuItem('없음', BundleEnv.NONE, 0),
       getEnvMenuItem('Arknights', BundleEnv.ARKNIGHTS, 1, true),
-      getEnvMenuItem('신월동행', BundleEnv.XWTX, 2),
+      getEnvMenuItem('신월동행', BundleEnv.NONE, 2),
     ],
   },
   {
