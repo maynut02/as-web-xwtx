@@ -231,7 +231,7 @@ export class AssetManager {
     switch (obj.type) {
       case AssetType.TextAsset:
         return {
-          name: `${fileName}`,
+          name: `${fileName}`,  // 원래는 `${fileName}.txt`
           type: 'text/plain',
           data: obj.data,
         };
