@@ -18,7 +18,6 @@ import IconGithub from '@/assets/github.svg';
 import MenuBar from '@/components/MenuBar.vue';
 import type { MenuBarConfig } from '@/components/MenuBar.vue';
 import type { MenuDropdownConfigItem } from '@/components/MenuDropdown.vue';
-import { BundleEnvIndex } from '@/constants/bundle-env';
 import { useAssetManager } from '@/store/assetManager';
 import { useSetting } from '@/store/setting';
 import ExportOptionsDialog from './components/ExportOptionsDialog.vue';
